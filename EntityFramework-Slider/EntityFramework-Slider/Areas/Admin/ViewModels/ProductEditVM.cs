@@ -12,7 +12,7 @@ namespace EntityFramework_Slider.Areas.Admin.ViewModels
         public string Price { get; set; }
         [Required]
         public int Count { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Don't be empty")]
         public string Description { get; set; }
         public int CategoryId { get; set; }
         public ICollection<ProductImage> Images { get; set; }

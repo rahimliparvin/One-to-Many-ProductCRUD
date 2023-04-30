@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NvpOvrAWsIvooXi+Y1SdhbWFmb6MGLh9HYrAZtd4B+4=",
+  "Hash": "TThIACozjLhuH3z+S50TTEleZAeNr1vB+2k4tWzc5Ds=",
   "Source": "EntityFramework-Slider",
   "BasePath": "_content/EntityFramework-Slider",
   "Mode": "Default",
@@ -46359,6 +46359,23 @@
       "OriginalItemSpec": "wwwroot\\img\\1f6f24b0-8eef-4de0-8a6a-75afb462bf98_IMG_20230321_004609_811.jpg"
     },
     {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\20923987-f882-416e-a609-48773cf3bbf0_gerb.jpeg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/20923987-f882-416e-a609-48773cf3bbf0_gerb.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\20923987-f882-416e-a609-48773cf3bbf0_gerb.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\2251a7d9-54df-48ae-a6db-8d6466539d36_IMG_20230321_004609_811.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -46374,6 +46391,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\2251a7d9-54df-48ae-a6db-8d6466539d36_IMG_20230321_004609_811.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\27da248a-24e9-441f-870f-760e9ea9324d_gerb.jpeg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/27da248a-24e9-441f-870f-760e9ea9324d_gerb.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\27da248a-24e9-441f-870f-760e9ea9324d_gerb.jpeg"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\2ae52b5e-760e-479c-a93d-dde1bf795fad_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg",
@@ -46425,6 +46459,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\33d849a0-f1f0-4288-b49c-7c29c2b8854e_9ed85c3dcca5709c7113.png"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\34f351f7-dc9f-4214-ad85-3fe52d299e65_9ed85c3dcca5709c7113.png",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/34f351f7-dc9f-4214-ad85-3fe52d299e65_9ed85c3dcca5709c7113.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\34f351f7-dc9f-4214-ad85-3fe52d299e65_9ed85c3dcca5709c7113.png"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\496051b9-9375-4fb2-8018-c282e0367f1c_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg",
@@ -46563,6 +46614,23 @@
       "OriginalItemSpec": "wwwroot\\img\\68eb4562-93fd-4a12-ac1c-b5d8436c7c42_gerb.jpeg"
     },
     {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\6934a2ed-e80c-4346-ac28-ed5fd696a883_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/6934a2ed-e80c-4346-ac28-ed5fd696a883_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\6934a2ed-e80c-4346-ac28-ed5fd696a883_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\6bb03d91-8ad9-4395-a439-4ace99275b5b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -46578,6 +46646,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\6bb03d91-8ad9-4395-a439-4ace99275b5b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\75eb3a46-3ae7-460f-b798-3be293002438_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/75eb3a46-3ae7-460f-b798-3be293002438_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\75eb3a46-3ae7-460f-b798-3be293002438_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\7f06be90-afc4-4ee6-8b5f-09516e0b66d9_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg",
@@ -46597,6 +46682,57 @@
       "OriginalItemSpec": "wwwroot\\img\\7f06be90-afc4-4ee6-8b5f-09516e0b66d9_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg"
     },
     {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\80f06e63-9967-4917-b346-4b3a61eb9bc0_9ed85c3dcca5709c7113.png",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/80f06e63-9967-4917-b346-4b3a61eb9bc0_9ed85c3dcca5709c7113.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\80f06e63-9967-4917-b346-4b3a61eb9bc0_9ed85c3dcca5709c7113.png"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\886d759f-1cf4-4749-acce-a5c75a95494c_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/886d759f-1cf4-4749-acce-a5c75a95494c_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\886d759f-1cf4-4749-acce-a5c75a95494c_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\8e8b61de-8fee-471c-82a9-5b21b93b8c1b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy - Copy.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/8e8b61de-8fee-471c-82a9-5b21b93b8c1b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy - Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\8e8b61de-8fee-471c-82a9-5b21b93b8c1b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy - Copy.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\8f29997f-3cd1-4b8a-91bb-dc41ec58c67a_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -46612,6 +46748,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\8f29997f-3cd1-4b8a-91bb-dc41ec58c67a_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\90b1c1ef-ddc6-4480-a835-b98ef72ae7e1_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/90b1c1ef-ddc6-4480-a835-b98ef72ae7e1_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\90b1c1ef-ddc6-4480-a835-b98ef72ae7e1_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\9242dbcc-e858-4dc6-abf1-1709a25ffa34_IMG_20230321_004609_811.jpg",
@@ -46699,6 +46852,40 @@
       "OriginalItemSpec": "wwwroot\\img\\99658aa6-fe9a-4df0-90cb-8886fc117144_IMG_20230321_004609_811.jpg"
     },
     {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\9d124268-b890-4870-8e5c-a59bccb0848d_gerb - Copy.jpeg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/9d124268-b890-4870-8e5c-a59bccb0848d_gerb - Copy.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\9d124268-b890-4870-8e5c-a59bccb0848d_gerb - Copy.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\9fb82d6a-e238-4d25-885b-80f49b7a87f4_9ed85c3dcca5709c7113.png",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/9fb82d6a-e238-4d25-885b-80f49b7a87f4_9ed85c3dcca5709c7113.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\9fb82d6a-e238-4d25-885b-80f49b7a87f4_9ed85c3dcca5709c7113.png"
+    },
+    {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\a3a02717-db89-4f86-8b0e-ec731a34811b_IMG_20230321_004609_811.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -46782,6 +46969,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\af252931-205a-43bd-989f-302ebced1310_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\b6272391-03df-4bf6-a321-bd5041340ccd_9ed85c3dcca5709c7113.png",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/b6272391-03df-4bf6-a321-bd5041340ccd_9ed85c3dcca5709c7113.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\b6272391-03df-4bf6-a321-bd5041340ccd_9ed85c3dcca5709c7113.png"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\bc1e6eb2-7d98-4727-8de1-500ec8ace2d2_images (1).jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/bc1e6eb2-7d98-4727-8de1-500ec8ace2d2_images (1).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bc1e6eb2-7d98-4727-8de1-500ec8ace2d2_images (1).jpg"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\bc848814-bee3-48e1-9228-c4daa15dd665_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg",
@@ -46886,12 +47107,12 @@
       "OriginalItemSpec": "wwwroot\\img\\c648dd9e-01b4-451c-9479-8535ffbffad4_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg"
     },
     {
-      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\cad96629-b4a7-49aa-b849-0e48bbc16bef_9ed85c3dcca5709c7113.png",
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\cee0b1ce-f5eb-47a6-aa51-551d71f1f0f0_9ed85c3dcca5709c7113.png",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
       "BasePath": "_content/EntityFramework-Slider",
-      "RelativePath": "img/cad96629-b4a7-49aa-b849-0e48bbc16bef_9ed85c3dcca5709c7113.png",
+      "RelativePath": "img/cee0b1ce-f5eb-47a6-aa51-551d71f1f0f0_9ed85c3dcca5709c7113.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -46900,7 +47121,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cad96629-b4a7-49aa-b849-0e48bbc16bef_9ed85c3dcca5709c7113.png"
+      "OriginalItemSpec": "wwwroot\\img\\cee0b1ce-f5eb-47a6-aa51-551d71f1f0f0_9ed85c3dcca5709c7113.png"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\d4507525-22ad-40c1-9178-a879b4431d68_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg",
@@ -46935,6 +47156,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\d4cb3039-9429-4b75-868d-b4ebfc0f26d7_IMG_20230321_004609_811.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\d5a6ebb5-539d-44a4-bb54-37ce084d86ca_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/d5a6ebb5-539d-44a4-bb54-37ce084d86ca_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\d5a6ebb5-539d-44a4-bb54-37ce084d86ca_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\d61dbb61-f54e-43f6-b0c1-c08017c8e9d3_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg",
@@ -46988,6 +47226,23 @@
       "OriginalItemSpec": "wwwroot\\img\\eb4736ee-3f87-4e1d-bf8b-de01a872a044_jaguar-xj13-sports-car-jaguar-cars-png-favpng-ydRsa5y11bmPTninCUZYptwYk.jpg"
     },
     {
+      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\ecd06e86-d307-4a00-8f18-ddd5bb1b4ed2_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/ecd06e86-d307-4a00-8f18-ddd5bb1b4ed2_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ecd06e86-d307-4a00-8f18-ddd5bb1b4ed2_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e - Copy.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\f0a459ce-d500-4eb0-843c-881956b3f1fe_IMG_20230321_004609_811.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -47037,23 +47292,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\f6b3621f-80c2-42fd-a075-d49bcebe9e9a_IMG_20230321_004609_811.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\f6dceb64-d2e3-4777-b2d7-ac7aa3ff535b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg",
-      "SourceId": "EntityFramework-Slider",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
-      "BasePath": "_content/EntityFramework-Slider",
-      "RelativePath": "img/f6dceb64-d2e3-4777-b2d7-ac7aa3ff535b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\f6dceb64-d2e3-4777-b2d7-ac7aa3ff535b_dduz7cn-5b5bba6c-5ba3-4a94-b5c4-66b3f237461e.jpg"
     },
     {
       "Identity": "C:\\Users\\CASPER\\Desktop\\Category-CRUD\\ViewComponents-Category-CRUD-Fiorella\\FiorellaApp\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\f84320ea-61ab-470d-acbd-09963c1a33da_IMG_20230321_004609_811.jpg",

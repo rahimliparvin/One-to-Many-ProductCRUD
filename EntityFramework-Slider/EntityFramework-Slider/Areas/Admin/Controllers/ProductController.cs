@@ -266,60 +266,50 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
 
             if (!ModelState.IsValid)
             {
-                return View(model);
-            }
-
-            foreach (var photo in model.Photos)
-            {
-                if (!photo.CheckFileType("image/"))
+                ProductEditVM productEditVMproduct = new()
                 {
-
-                    ModelState.AddModelError("Photos", "File type must be image");
-                    return View(model);
-
-                }
-
-
-                if (photo.CheckFileSize(200))
-                {
-
-                    ModelState.AddModelError("Photos", "Photo size must be max 200Kb");
-                    return View(model);
-
-                }
-
+                    Name = dbProduct.Name,
+                    Description = dbProduct.Description,
+                    Count = dbProduct.Count,
+                    Price = dbProduct.Price.ToString(),
+                    CategoryId = dbProduct.CategoryId,
+                    Images = dbProduct.Images,
+                };
+          
+              return View(productEditVMproduct);
+               
             }
 
-            foreach (var item in dbProduct.Images)
-            {
-                string oldPath = FileHelper.GetFilePath(_env.WebRootPath, "img", item.Image);
 
-            	FileHelper.DeleteFile(oldPath);
-
-            }
-
+   
             List<ProductImage> productImages = new();
                     
-        
-            foreach (var item in model.Photos)
+            if(model.Photos != null)
             {
 
-               string fileName = Guid.NewGuid().ToString() + "_" + item.FileName;
+                foreach (var item in model.Photos)
+                {
 
-               string path = FileHelper.GetFilePath(_env.WebRootPath, "img", fileName);
+                    string fileName = Guid.NewGuid().ToString() + "_" + item.FileName;
 
-               FileHelper.SaveFileAsync(path, item);
+                    string path = FileHelper.GetFilePath(_env.WebRootPath, "img", fileName);
 
-               ProductImage productImage = new()
-               {
-                     Image = fileName
-               };
+                    FileHelper.SaveFileAsync(path, item);
 
-                productImages.Add(productImage);
+                    ProductImage productImage = new()
+                    {
+                        Image = fileName
+                    };
+
+                    productImages.Add(productImage);
+                }
+
+                productImages.FirstOrDefault().IsMain = true;
+
+
             }
+           
 
-
-            productImages.FirstOrDefault().IsMain = true;
 
             decimal convertedPrice = decimal.Parse(model.Price);
 
@@ -329,24 +319,22 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
             dbProduct.Price = convertedPrice;
             dbProduct.Count = model.Count;
             dbProduct.CategoryId = model.CategoryId;
-            dbProduct.Images = productImages;
-
-            //Product newProduct = new()
-            //{
-            //    Price = convertedPrice,
-            //    Name = model.Name,
-            //    Description = model.Description,
-            //    Count = model.Count,
-            //    Images = productImages,
-            //    CategoryId = model.CategoryId
-            //};
-
-
-
+            if(model.Photos == null)
+            {
+                dbProduct.Images = dbProduct.Images;
+                if (dbProduct.Images != null)
+                {
+                    dbProduct.Images.FirstOrDefault().IsMain = true;
+                }
+            }
+            else
+            {
+                dbProduct.Images = productImages;
+            }
+ 
             await _context.ProductImages.AddRangeAsync(productImages);
-
-           _context.Products.Update(dbProduct);
-           await  _context.SaveChangesAsync();
+            _context.Products.Update(dbProduct);
+            await  _context.SaveChangesAsync();
 
 
            return RedirectToAction(nameof(Index));
@@ -375,6 +363,41 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
         {
             IEnumerable<Category> categories = await _categoryService.GetAll();
             return new SelectList(categories, "Id", "Name");
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> PhotoDelete(int id)
+        {
+            if (id == null) return BadRequest();
+
+            ProductImage productImage = await _context.ProductImages.Include(m=>m.Product).FirstOrDefaultAsync(m=>m.Id == id);
+
+            if (productImage == null) return NotFound();
+
+            Product dbProduct = await _productService.GetFullDataById(productImage.Product.Id);
+
+            if(dbProduct.Images.Count() > 1)
+            {
+                string path = FileHelper.GetFilePath(_env.WebRootPath, "img", productImage.Image);
+
+                FileHelper.DeleteFile(path);
+
+                _context.ProductImages.Remove(productImage);
+
+                dbProduct.Images.FirstOrDefault().IsMain = true;
+
+                await _context.SaveChangesAsync();
+
+               
+            }
+            else
+            {
+                ModelState.AddModelError("Image", "You can't delete the last picture without adding a new picture");
+                return View();
+            }
+
+            return Ok();
         }
     }
 }

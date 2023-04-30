@@ -63,4 +63,39 @@
         })
 
     })
+
+
+    $(document).on("click", ".deletePhoto", function (e) {
+
+        e.preventDefault();
+
+        let productImageId = $(this).attr("data-id")
+
+        console.log(productImageId);
+
+        let deletedElem = $(this)
+
+        let data = { id: productImageId }
+
+        var url = "/Admin/Product/PhotoDelete";
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", url, true);
+        xhr.send();
+
+
+        $.ajax({
+            url:"/Admin/Product/PhotoDelete",
+            type: "Post",
+            data: data,
+            success: function (res) {
+
+                $(deletedElem).prev().remove()
+                $(deletedElem).remove()
+
+                console.log("ugurludur")
+
+            }
+        })
+
+    })
 })
