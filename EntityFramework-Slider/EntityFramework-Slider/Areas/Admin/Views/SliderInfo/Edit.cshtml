@@ -1,0 +1,41 @@
+﻿@model SliderInfo
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="padding-left:200px" class="container">
+    <h1>Edit</h1>
+
+    <div class="slider-content">
+        <img src="~/img/@Model.SignatureImage" />
+    </div>
+
+    <form class="forms-sample" asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input class="form-control" id="customFile" asp-for="Photo">
+        <span class="text-danger" asp-validation-for="Photo"></span>
+        <textarea class="form-control" id="sliderinfo-title" rows="5" asp-for="Title"></textarea>
+        <span class="text-danger" asp-validation-for="Title"></span>
+        <textarea class="form-control" id="sliderinfo-description" rows="5" asp-for="Description"></textarea>
+        <span class="text-danger" asp-validation-for="Description"></span>
+        <div class="my-3">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a type="button" asp-action="Index" class="btn btn-light">Cancel</a>
+        </div>
+    </form>
+
+</div>
+
+
+@section Scripts{
+
+   
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace("sliderinfo-title");
+    </script>
+
+    <script>
+        CKEDITOR.replace("sliderinfo-description");
+    </script>
+}
+

@@ -1,0 +1,13 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div style="padding-left:200px" class="container my-5">
+
+       <label><strong>Category Name</strong></label>
+       <input class="form-control" type="text" id="customFile" asp-for="Name" disabled="disabled" />
+       <a asp-action="Index" class="btn btn-light mt-3">Cancel</a>
+
+</div>
+

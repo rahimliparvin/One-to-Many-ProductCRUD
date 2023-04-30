@@ -1,0 +1,20 @@
+﻿@model SliderInfo
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="container" style="padding-left:200px">
+
+    <h1>Slider-Detail</h1>
+    <div class="slider-content" >
+        <img src="~/img/@Model.SignatureImage"/>
+        <label><strong>Title</strong></label>
+        <input class="form-control" type="text" id="customFile" asp-for="Title" disabled="disabled" />
+        <label><strong>Description</strong></label>
+        <input class="form-control" type="text" id="customFile" asp-for="Description" disabled="disabled" />
+    </div>
+    <a class="btn btn-info"  asp-action="Index">Back</a>
+</div>
+
+
+

@@ -1,0 +1,47 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+
+<div class="container">
+	<table class="table app-table-hover mb-0 text-left" style="margin-left:130px">
+		<thead>
+			<tr>
+
+				<th class="cell">Image</th>
+				<th class="cell">Header</th>
+				<th class="cell">Description</th>
+				<th class="cell">Date</th>
+
+
+			</tr>
+		</thead>
+		<tbody>
+
+			<tr>
+				<td style="width:80px" class="cell">
+					<img style="width:70px;height:70px;" src="~/img/@Model.Image">
+				</td>
+
+				<td style="width:300px" class="cell">
+					@Model.Header
+				</td>
+
+				<td style="width:500px" class="cell">
+					@Model.Description
+				</td>
+
+
+				<td class="cell">
+					@Model.Date.ToShortDateString()
+				</td>
+
+			</tr>
+			
+		</tbody>
+	</table>
+	<a style="margin-left:1040px" class="btn btn-info mt-3" asp-action="Index">Back</a>
+
+</div>

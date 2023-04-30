@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Blog>
+@{
+    ViewData["Title"] = "Blog Index";
+}
+
+<h1>Index</h1>
+
+
+<div style="padding-left:200px" class="container">
+
+	<a asp-action="Create" style="border:1px solid green;margin-bottom:20px;;margin-top:20px;margin-left:850px;text-decoration-color:white;" class="btn btn-success">Create</a>
+
+	<div style="padding-left:20px" class="tab-content" id="orders-table-tab-content">
+		<div class="tab-pane fade show active" id="orders-all" role="tabpanel" aria-labelledby="orders-all-tab">
+			<div class="app-card app-card-orders-table shadow-sm mb-5">
+				<div class="app-card-body">
+					<div class="table-responsive">
+						<table class="table app-table-hover mb-0 text-left">
+							<thead>
+								<tr>
+
+									<th class="cell">Image</th>
+									<th class="cell">Header</th>
+									<th class="cell">Description</th>
+									<th style="width: 340px;" class="cell">Operations</th>
+
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var blog in Model)
+								{
+									<tr>
+										<td class="cell">
+											<img style="width:70px;height:70px;" src="~/img/@blog.Image">
+										</td>
+
+										<td class="cell">
+											@blog.Header
+										</td>
+
+										<td class="cell">
+											@blog.Description
+										</td>
+
+										<td class="cell">
+											<a asp-action="Detail" asp-route-id="@blog.Id" style="border:1px solid blue" class="btn btn-outline-info">Info</a>
+											<a asp-action="Edit" asp-route-id="@blog.Id" style="border:1px solid green" class="btn btn-outline-primary">Edit</a>
+											<form style="display:inline-block" asp-action="Delete" asp-route-id="@blog.Id" method="post">
+												<button type="submit" style="border:1px solid red" class="btn btn-outline-danger">Delete</button>
+											</form>
+										</td>
+
+									</tr>
+								}
+
+
+							</tbody>
+						</table>
+					</div><!--//table-responsive-->
+
+				</div><!--//app-card-body-->
+			</div><!--//app-card-->
+
+
+		</div><!--//tab-pane-->
+
+
+
+
+	</div><!--//tab-content-->
+
+</div>

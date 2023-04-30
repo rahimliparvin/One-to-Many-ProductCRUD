@@ -1,0 +1,123 @@
+﻿@model Paginate<ProductListVM>
+@{
+	ViewData["Title"] = "Index";
+
+	int a = (((Model.CurrentPage - 1) * @ViewBag.take));
+
+}
+
+<h1>Index</h1>
+
+<div style="padding-left:200px" class="container">
+
+	<a asp-action="Create" style="border:1px solid green;margin-bottom:20px;;margin-top:20px;margin-left:850px;text-decoration-color:white;" class="btn btn-success">Create</a>
+
+	<div class="tab-content" id="orders-table-tab-content">
+		<div class="tab-pane fade show active" id="orders-all" role="tabpanel" aria-labelledby="orders-all-tab">
+			<div class="app-card app-card-orders-table shadow-sm mb-5">
+				<div class="app-card-body">
+					<div class="table-responsive">
+						<table class="table app-table-hover mb-0 text-left">
+							<thead>
+								<tr>
+									<th class="cell">#</th>
+									<th class="cell">Image</th>
+									<th class="cell">Name</th>
+									<th class="cell">Description</th>
+									<th class="cell">Category</th>
+									<th class="cell">Count</th>
+									<th class="cell">Price</th>
+									<th style="width: 340px;" class="cell">Operations</th>
+
+								</tr>
+							</thead>
+							<tbody>
+
+
+
+								@foreach (var product in Model.Datas)
+								{
+
+									a++;
+
+									<tr>
+										<td class="cell">
+											@a
+										</td>
+										<td class="cell">
+											<img style="width:70px; height:100px;" src="~/img/@product.MainImage" />
+										</td>
+										<td class="cell">
+											@Html.Raw(@product.Name)
+										</td>
+
+										<td class="cell">
+											@Html.Raw(product.Description)
+										</td>
+
+
+										<td class="cell">
+											@Html.Raw(product.CategoryName)
+										</td>
+
+
+										<td class="cell">
+											@product.Count
+										</td>
+
+
+										<td class="cell">
+											@product.Price
+										</td>
+
+
+										<td class="cell">
+											<a asp-action="Detail" asp-route-id="@product.Id" style="border:1px solid blue" class="btn btn-outline-info">Info</a>
+											<a asp-action="Edit" asp-route-id="@product.Id" style="border:1px solid green" class="btn btn-outline-primary">Edit</a>
+											<a asp-action="Delete" asp-route-id="@product.Id" style="border:1px solid red" class="btn btn-outline-danger">Delete</a>
+
+										</td>
+
+									</tr>
+
+								}
+
+
+
+
+
+
+							</tbody>
+						</table>
+					</div><!--//table-responsive-->
+
+					<nav aria-label="Page navigation example" style="margin-bottom:20px;" >
+						<ul class="pagination justify-content-center my-3">
+							<li class="page-item @(Model.HasPrevious ? "" : "disabled")">
+								<a class="page-link" asp-action="Index" asp-route-page="@(Model.CurrentPage - 1)" tabindex="-1">Previous</a>
+							</li>
+							
+							@for (int i = 1; i <= Model.TotalPages; i++)
+							{
+								<li class="page-item @(Model.CurrentPage == i? "disabled" : "")"><a class="page-link" asp-action="Index" asp-route-page="@i">@i</a></li>
+							}
+
+							<li class="page-item @(Model.HasNext ? "" : "disabled") ">
+								<a class="page-link" asp-action="Index" asp-route-page="@(Model.CurrentPage + 1)">Next</a>
+							</li>
+						</ul>
+					</nav>
+
+				</div><!--//app-card-body-->
+			</div><!--//app-card-->
+
+
+		</div><!--//tab-pane-->
+
+
+
+
+	</div><!--//tab-content-->
+
+</div>
+

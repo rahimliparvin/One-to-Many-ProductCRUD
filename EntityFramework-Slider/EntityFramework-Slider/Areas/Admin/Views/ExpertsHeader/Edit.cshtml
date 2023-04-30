@@ -1,0 +1,23 @@
+﻿@model ExpertsHeader
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="padding-left:200px" class="container my-5">
+    <span class="text-danger">@ViewBag.error</span>
+    <form class="forms-sample" style="display:inline-block" asp-action="Edit" method="post">
+        <label>Add New Title</label>
+        <input class="form-control" type="text" id="customFile" asp-for="Title" />
+        <span class="text-danger" asp-validation-for="Title"></span>
+        <label>Add New Description</label>
+        <input class="form-control" type="text" id="customFile" asp-for="Description" />
+        <span class="text-danger" asp-validation-for="Description"></span>
+        <div class="buttons my-3">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a asp-action="Index" class="btn btn-light">Cancel</a>
+        </div>
+    </form>
+</div>
+
+
+

@@ -1,0 +1,28 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<div style="padding-left:200px" class="container my-5">
+    <form class="forms-sample" style="display:inline-block" asp-action="Edit" method="post" enctype="multipart/form-data">
+        <label>Add Photo</label>
+        <input class="form-control" id="customFile" asp-for="Photo">
+        <span class="text-danger" asp-validation-for="Photo"></span>
+        <label>Add New Header</label>
+        <input class="form-control" type="text" id="customFile" asp-for="Header" />
+        <span class="text-danger" asp-validation-for="Header"></span>
+        <label>Add New Description</label>
+        <input class="form-control" type="text" id="customFile" asp-for="Description" />
+        <span class="text-danger" asp-validation-for="Description"></span>
+        <label>Add New Date</label>
+        <input class="mt-2" type="datetime-local" asp-for="Date">
+        <span class="text-danger mt-2" asp-validation-for="Date"></span>
+
+        <div class="buttons my-3">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a asp-action="Index" class="btn btn-light">Cancel</a>
+        </div>
+    </form>
+</div>

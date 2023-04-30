@@ -1,0 +1,17 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="padding-left:200px" class="container my-5">
+    <span class="text-danger">@ViewBag.error</span>
+    <form class="forms-sample" asp-action="Edit" method="post">
+        <input class="form-control" type="text" id="customFile" asp-for="Name" />
+        <span class="text-danger" asp-validation-for="Name"></span>
+        <div class="buttons my-3">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a asp-action="Index" class="btn btn-light">Cancel</a>
+        </div>
+    </form>
+</div>
+

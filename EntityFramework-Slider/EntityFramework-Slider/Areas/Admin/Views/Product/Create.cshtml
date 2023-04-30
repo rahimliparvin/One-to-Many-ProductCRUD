@@ -1,0 +1,67 @@
+﻿@model ProductCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div style="padding-left:200px" class="container my-5">
+    <h1>Create</h1>
+    <form class="forms-sample" asp-action="Create" method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+             <label>Add Name</label>
+            <textarea class="form-control" type="text" id="Product-Name" asp-for="Name"></textarea>
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+
+        <div class="form-group">
+            <label class="mt-3" >Add Description</label>
+            <textarea class="form-control" type="text" id="Product-Desc" asp-for="Description"></textarea>
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+
+        <div class="from-group">
+            <label class="mt-3" >Add Count</label>
+            <input class="form-control" type="number" id="customFile" asp-for="Count">
+            <span class="text-danger mt-2" asp-validation-for="Count"></span>
+        </div>
+
+        <div class="from-group">
+            <label class="mt-3">Add Price</label>
+            <input class="form-control" type="number" step=".01" id="customFile" asp-for="Price">
+            <span class="text-danger mt-2" asp-validation-for="Price"></span>
+        </div>
+       
+        <div class="form-group">
+            <label class="mt-3">Choose Product's Category</label>
+            <select class="form-control" id="customFile" asp-for="CategoryId" asp-items="@ViewBag.categories"></select>
+        </div>
+
+
+        <div class="form-group">
+            <label class="mt-5">Add Photo</label>
+            <input class="form-control" id="customFile" asp-for="Photos">
+            <span class="text-danger" asp-validation-for="Photos"></span>
+        </div>
+
+
+        <div class="my-3">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a type="button" asp-action="Index" class="btn btn-light">Cancel</a>
+        </div>
+    </form>
+</div>
+
+
+@section Scripts{
+
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace("Product-Name");
+    </script>
+
+    <script>
+        CKEDITOR.replace("Product-Desc");
+    </script>
+}

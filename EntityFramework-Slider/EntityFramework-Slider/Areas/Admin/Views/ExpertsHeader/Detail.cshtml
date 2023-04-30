@@ -1,0 +1,15 @@
+﻿@model ExpertsHeader
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div style="padding-left:200px" class="container my-5">
+
+    <label><strong>ExpertsHeader Title</strong></label>
+    <input class="form-control" type="text" id="customFile" asp-for="Title" disabled="disabled" />
+    <label><strong>ExpertsHeader Description</strong></label>
+    <input class="form-control" type="text" id="customFile" asp-for="Description" disabled="disabled" />
+    <a asp-action="Index" class="btn btn-light mt-3">Cancel</a>
+
+</div>
+
